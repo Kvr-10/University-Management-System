@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UniversityMS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UniversityMS_jar</output-path>
+    <root id="archive" name="UniversityMS.jar">
+      <element id="module-output" name="UniversityMS" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jcalendar-1.4/lib/jcalendar-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../display table sql/rs2xml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
