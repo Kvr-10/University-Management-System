@@ -67,7 +67,7 @@ You need to create the database before importing the SQL file into it.
    You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.
 
    ```shell
-   mysql -u username -p university_management < path/to/university_management.sql
+   mysql -u username -p University_management < path/to/University_management.sql
    ```
 
 **Run the Application:**
