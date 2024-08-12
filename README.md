@@ -42,7 +42,7 @@ The University Management System is a comprehensive Java-based application desig
 2. **Navigate to Project Directory**
 
    ```sh
-   University-Ms/out/artifacts/UniversityMs_jar/UniversityMs.jar
+   University-Management-System/out/artifacts/UniversityMs_jar/UniversityMs.jar
    ```
 
 3. **Install Dependencies:**
