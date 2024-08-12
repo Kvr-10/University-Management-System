@@ -58,12 +58,12 @@ The University Management System is a comprehensive Java-based application desig
 You need to create the database before importing the SQL file into it.
   
   ```sql
-  CREATE DATABASE university_management;
+  CREATE DATABASE University_management;
   ```
 
  **Import the SQL File:**   
  
-   Download the `university_management.sql` file from the repository and import it into your MySQL database.  
+   Download the `University_management.sql` file from the repository and import it into your MySQL database.  
    You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.
 
    ```shell
