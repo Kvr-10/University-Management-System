@@ -129,6 +129,13 @@ public class MainPage extends JFrame implements ActionListener {
         Notepad.setBackground(Color.WHITE);
         Extras.add(Notepad);
 
+        //Want this? Suggested at line 199.
+
+//        JMenuItem Breakingball = new JMenuItem("Play Breaking Ball");
+//        Breakingball.addActionListener(this);
+//        Breakingball.setBackground(Color.WHITE);
+//        Extras.add(Breakingball);
+
         JMenu About = new JMenu("About Creator");
         About.addActionListener(this);
         About.setBackground(Color.WHITE);
@@ -144,10 +151,10 @@ public class MainPage extends JFrame implements ActionListener {
         Github.setBackground(Color.white);
         About.add(Github);
 
-        JMenuItem pdf = new JMenuItem("2nd Year Result");
-        pdf.addActionListener(this);
-        pdf.setBackground(Color.white);
-        About.add(pdf);
+        JMenuItem Linkedin = new JMenuItem("Linkedin");
+        Linkedin.addActionListener(this);
+        Linkedin.setBackground(Color.white);
+        About.add(Linkedin);
 
         JMenu Exit = new JMenu("Exit");
         Exit.setForeground(Color.red);
@@ -180,8 +187,7 @@ public class MainPage extends JFrame implements ActionListener {
             } catch (Exception ae) {
                 ae.printStackTrace();
             }
-        }
-        else if (msg.equalsIgnoreCase("Notepad")) {
+        }else if (msg.equalsIgnoreCase("Notepad")) {
             try {
                 ProcessBuilder pb2 = new ProcessBuilder("notepad.exe");
                 pb2.start();
@@ -189,6 +195,21 @@ public class MainPage extends JFrame implements ActionListener {
                 ae.printStackTrace();
             }
         }
+
+        // Hey User !! if you want this, you will have to first uncomment it from menu.
+        // Second thing, You will have to download the jar file from the github.com/Kvr-10
+        // finally, you will have to set the path to your jar file.
+
+//        else if (msg.equalsIgnoreCase("Play Breaking Ball")) {
+//            try {
+//
+//                    ProcessBuilder pb2 = new ProcessBuilder("java","-jar","C:/Users/chama/OneDrive/Desktop/Java/Breaking_ball/out/artifacts/Breaking_ball_jar/Breaking_ball.jar");
+//                    pb2.start();
+//            } catch (Exception ae) {
+//                JOptionPane.showMessageDialog(null,"Download Breaking Ball From the github.com/Kvr-10 to play.","Suggestion",JOptionPane.INFORMATION_MESSAGE);
+//                ae.printStackTrace();
+//            }
+//        }
         else if(msg.equalsIgnoreCase("instagram")){
             try {
                 Desktop.getDesktop().browse(new URI("https://www.instagram.com/kvr10_/"));
@@ -204,9 +225,9 @@ public class MainPage extends JFrame implements ActionListener {
                 ae.printStackTrace();
             }
         }
-        else if(msg.equalsIgnoreCase("2nd Year Result")){
+        else if(msg.equalsIgnoreCase("Linkedin")){
             try {
-                Desktop.getDesktop().open(new File("C:/Users/chama/OneDrive/Desktop/Docs/Second Year result.pdf"));
+                Desktop.getDesktop().browse(new URI("https://www.linkedin.com/in/chaman-sinha/"));
             } catch (Exception ae) {
                 ae.printStackTrace();
             }
