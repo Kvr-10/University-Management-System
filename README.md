@@ -42,7 +42,7 @@ The University Management System is a comprehensive Java-based application desig
 2. **Navigate to Project Directory**
 
    ```sh
-   University-Ms/out/artifacts/UniversityMs_jar/UniversityMs.jar
+   University-Management-System/out/artifacts/UniversityMs_jar/UniversityMs.jar
    ```
 
 3. **Install Dependencies:**
@@ -58,16 +58,16 @@ The University Management System is a comprehensive Java-based application desig
 You need to create the database before importing the SQL file into it.
   
   ```sql
-  CREATE DATABASE university_management;
+  CREATE DATABASE University_management;
   ```
 
  **Import the SQL File:**   
  
-   Download the `university_management.sql` file from the repository and import it into your MySQL database.  
+   Download the `University_management.sql` file from the repository and import it into your MySQL database.  
    You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.
 
    ```shell
-   mysql -u username -p university_management < path/to/university_management.sql
+   mysql -u username -p University_management < path/to/University_management.sql
    ```
 
 **Run the Application:**
