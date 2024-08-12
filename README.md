@@ -1,8 +1,8 @@
-# University Management System (UniMS)
+# University Management System
 
 ## Overview
 
-The University Management System (UniMS) is a comprehensive Java-based application designed to manage and streamline various administrative tasks within a university. This system provides functionalities for managing student and faculty information, leave applications, examination results, and fee details. The application features a user-friendly graphical interface built with Swing and integrates with a MySQL database for data storage and retrieval.
+The University Management System is a comprehensive Java-based application designed to manage and streamline various administrative tasks within a university. This system provides functionalities for managing student and faculty information, leave applications, examination results, and fee details. The application features a user-friendly graphical interface built with Swing and integrates with a MySQL database for data storage and retrieval.
 
 ## Features
 
@@ -37,7 +37,7 @@ The University Management System (UniMS) is a comprehensive Java-based applicati
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Kvr-10/University-Management-System.git
    ```
 2. **Navigate to Project Directory**
 
