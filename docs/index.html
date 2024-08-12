@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="university.ico" type="image/ico">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="university.ico" alt="University Management System Logo" class="header-img">
+            <h1>University Management System</h1>
+        </div>
+        <div class="marquee-container">
+            <p class="marquee">Efficient University Management System Developed in Java</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About the System</h2>
+            <p>The University Management System is a Java application designed to manage student and faculty data, leave requests, exam results, and fees. 
+                It features a Swing-based GUI and MySQL database using JDBC Connector. APIs like JCalendar and RS2XML are used for date handling and data export, offering an efficient solution for university administration.</p>
+            <p>For more details and to view the source code, visit: <br> <a class="repo-link1" href="https://github.com/Kvr-10/University-Management-System" target="_blank"><b>GitHub repository</b></a></p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Login System:</strong> Secure login interface for users to access the system.</li>
+                <li><strong>Main Dashboard:</strong> Central hub for navigating through different functionalities.</li>
+                <li><strong>Student Management:</strong> Add new student information, view details, and update records.</li>
+                <li><strong>Faculty Management:</strong> Add new faculty information, view details, and update records.</li>
+                <li><strong>Leave Management:</strong> Apply for and view leave details for both students and faculty.</li>
+                <li><strong>Examination Management:</strong> Enter marks and view examination results.</li>
+                <li><strong>Fee Management:</strong> View fee structure, fill out fee forms, and display paid fees.</li>
+                <li><strong>Extras:</strong> Access to calculator, notepad, and external links such as Instagram and GitHub.</li>
+            </ul>
+        </section>
+        
+        <section id="technologies">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Java:</strong> Core programming language for application development.</li>
+                <li><strong>Swing:</strong> GUI toolkit for building the user interface.</li>
+                <li><strong>MySQL:</strong> Database for storing and managing data.</li>
+                <li><strong>JCalendar:</strong> For handling date inputs in the application.</li>
+                <li><strong>RS2XML:</strong> For exporting data to XML format.</li>
+            </ul>
+        </section>
+
+        <section id="apis-used">
+            <h2>APIs Used</h2>
+            <ul>
+                <li><strong>Java MySQL Connector:</strong> Provides the JDBC API to connect Java applications to MySQL databases. It allows execution of SQL queries and updates through a standard JDBC interface.<br>
+                <a class="repo-link" href="https://dev.mysql.com/doc/connector-j/en/" target="_blank">MySQL Connector/J Documentation</a></li>
+                <li><strong>JCalendar:</strong> Provides a graphical calendar component for handling date input in Java Swing applications. It allows users to select dates through a user-friendly interface.<br>
+                <a class="repo-link" href="https://toedter.com/jcalendar/" target="_blank">JCalendar API</a></li>
+                <li><strong>RS2XML:</strong> Allows exporting and importing data in XML format using Java. It integrates with the JDBC API to convert SQL result sets into XML.<br>
+                <a class="repo-link" href="https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download" target="_blank">RS2XML API</a></li>
+            </ul>
+        </section>
+        
+       <section id="setup">
+    <h2>Setup and Installation</h2>
+    <div class="steps">
+        <div class="step">
+            <h3>1. Clone the Repository</h3>
+            <p class="clone-command"><code>git clone https://github.com/Kvr-10/University-Management-System.git</code></p>
+        </div>
+        <div class="step">
+            <h3>2. Navigate to the Project Directory</h3>
+            <p class="directory-path"><code>University-M-System/out/artifacts/UniversityMs_jar/UniversityMs.jar</code></p>
+        </div>
+        <div class="step">
+            <h3>3. Install Dependencies</h3>
+            <p>Ensure you have Java Development Kit (JDK) installed.</p>
+            <p>Add the following libraries to your project's classpath:</p>
+            <ul>
+                <li>MySQL Connector-java.jar <a href="https://dev.mysql.com/downloads/connector/j/" target="_blank" class="repo-link">Download MySQL Connector</a></li>
+                <li>JCalendar.jar <a href="https://toedter.com/jcalendar/" target="_blank" class="repo-link">Download JCalendar</a></li>
+                <li>RS2XML.jar <a href="https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download" target="_blank" class="repo-link">Download RS2XML</a></li>
+            </ul>
+        </div>
+        <div class="step">
+            <h3>4. Database Setup</h3>
+            <p class="db-command"><code>CREATE DATABASE university_management;</code></p>
+        </div>
+        <div class="step">
+            <h3>5. Import the SQL File</h3>
+            <p>Download the <code>university_management.sql</code> file from the repository and import it into your MySQL database.</p>
+            <p>You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.</p>
+            <p class="import-command"><code>mysql -u username -p university_management < path/to/university_management.sql</code></p>
+        </div>
+        <div class="step">
+            <h3>6. Run the Application</h3>
+            <p>Compile and run the <code>Splash</code> class to start the application.</p>
+        </div>
+    </div>
+</section>
+
+        
+        <section id="alternative" class="alternative-section">
+            <h2>Alternative</h2>
+            <p>You can directly download the JAR file from the Releases page and run it:</p>
+            <div class="button-container">
+                <a class="download-link" href="https://github.com/Kvr-10/University-Management-System/releases/latest" target="_blank" download><b>Visit Releases</b></a>
+                <a class="download-link" href="https://github.com/Kvr-10/University-Management-System/releases/latest/download/UniversityMs.jar" download><b>Download UMS Application</b></a>
+            </div>
+        </section>
+        
+        <section id="about-me">
+            <h2>Know More About Me</h2>
+            <p>Learn more about me and my projects by visiting my main website:</p>
+            <a class="repo-link" href="https://kvr-10.github.io" target="_blank"><b>Visit My Website</b></a>
+        </section>
+        
+    </div>
+    <footer>
+        <p>Contact me at <a href="mailto:chamansinha9480@gmail.com">chamansinha9480@gmail.com</a></p>
+    </footer>
+    
+</body>
+</html>
