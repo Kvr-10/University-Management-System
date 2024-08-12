@@ -63,7 +63,7 @@ You need to create the database before importing the SQL file into it.
 
  **Import the SQL File:**   
  
-   Download the `University_management.sql` file from the repository and import it into your MySQL database.  
+   Download the [`University_management.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository and import it into your MySQL database.  
    You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.
 
    ```shell
@@ -72,6 +72,14 @@ You need to create the database before importing the SQL file into it.
 
 **Run the Application:**
    - Compile and run the `Splash` class to start the application.
+   - Initial Username: `kvr10` Password: `admin.`
+
+## Alternative
+
+   - Ensure that you have created the Database `University_management`, and imported the [`University_management.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository into your MySQL database.  
+   - You can directly download the JAR file from the [Releases page](https://github.com/Kvr-10/University-Management-System/releases/latest) and run it.    
+   - Download [University-Management-System](https://github.com/Kvr-10/University-Management-System/releases/latest/download/UniversityMS.jar) Application.   
+   - Initial Username: `kvr10` Password: `admin.`
 
 ## Usage
 
