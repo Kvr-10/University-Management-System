@@ -1,3 +1,7 @@
+meta[name="viewport"] {
+    content: "width=device-width, initial-scale=1.0";
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -11,6 +15,7 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 header {
@@ -38,10 +43,10 @@ h1 {
 }
 
 .marquee-container {
-    overflow: hidden; 
-    position: relative; 
-    padding: 10px 0; 
-    height: 40px; 
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+    height: 40px;
 }
 
 .marquee {
@@ -74,6 +79,7 @@ section {
     background-color: #e9ecef;
     padding: 20px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 a {
@@ -138,9 +144,30 @@ ul li strong {
     text-align: center;
 }
 
-#about-me a {
-    font-size: 1.2em;
-    font-weight: bold;
+#about-me h2 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #003366;
+}
+
+#about-me p {
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+#about-me a.repo-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.0em;
+}
+
+#about-me a.repo-link:hover {
+    background-color: #003d80;
 }
 
 .steps {
@@ -170,7 +197,7 @@ ul li strong {
 }
 
 .step code {
-    background:  #e9ecef;
+    background: #e9ecef;
     padding: 5px;
     border-radius: 4px;
 }
@@ -201,35 +228,6 @@ ul li strong {
     background-color: #003366;
 }
 
-#about-me {
-    text-align: center;
-}
-
-#about-me h2 {
-    text-align: left;
-    margin: 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #003366;
-}
-
-#about-me p {
-    margin: 0 0 10px 0;
-}
-
-#about-me a.repo-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0056b3;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.0em;
-}
-
-#about-me a.repo-link:hover {
-    background-color: #003d80;
-}
-
 footer {
     background-color: #003366;
     color: #fff;
@@ -245,4 +243,48 @@ footer a {
 footer a:hover {
     color: #ffdd57;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .marquee {
+        font-size: 1em;
+    }
+
+    .download-link, .repo-link1 {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .download-link, .repo-link1 {
+        font-size: 0.8em;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
 }
