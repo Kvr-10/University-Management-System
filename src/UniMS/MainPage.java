@@ -285,16 +285,16 @@ public class MainPage extends JFrame implements ActionListener {
             setVisible(false);
         }else if (msg.equalsIgnoreCase("Fee-Structure")) {
             System.out.println("Opening Fee-Structure");
-            //new FeeS();
-            //setVisible(false);
+            new FeeS();
+            setVisible(false);
         }else if (msg.equalsIgnoreCase("Student Fee-Form")) {
             System.out.println("Opening Student Fee-Form");
-            //new FeeForm();
-            //setVisible(false);
+            new FeeForm();
+            setVisible(false);
         }else if (msg.equalsIgnoreCase("Paid Fees List")) {
             System.out.println("Opening Paid Fees List");
-            //new FeesDisplay();
-            //setVisible(false);
+            new FeesDisplay();
+            setVisible(false);
         }
     }
     public static void main(String[] args) {
