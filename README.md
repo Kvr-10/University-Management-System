@@ -69,13 +69,13 @@ You need to create the database before importing the SQL file into it.
    ```shell
    mysql -u username -p UniversityManagement < path/to/UniversityManagement.sql
    ```
+  **Note:** Make sure to update the username and password in the `DriverManager.getConnection` method within your `Connectionmysql` class to match your MySQL database credentials.
 
 **Run the Application:**
    - Compile and run the `Splash` class to start the application.
    - Initial Username: `kvr10` Password: `admin.`
 
 ## Alternative
-
    - Ensure that you have created the Database `UniversityManagement`, and imported the [`UniversityManagement.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository into your MySQL database.  
    - You can directly download the JAR file from the [Releases page](https://github.com/Kvr-10/University-Management-System/releases/latest) and run it.    
    - Download [University-Management-System](https://github.com/Kvr-10/University-Management-System/releases/latest/download/UniversityMS.jar) Application.   
