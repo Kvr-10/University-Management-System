@@ -58,16 +58,16 @@ The University Management System is a comprehensive Java-based application desig
 You need to create the database before importing the SQL file into it.
   
   ```sql
-  CREATE DATABASE University_management;
+  CREATE DATABASE UniversityManagement;
   ```
 
  **Import the SQL File:**   
  
-   Download the [`University_management.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository and import it into your MySQL database.  
+   Download the [`UniversityManagement.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository and import it into your MySQL database.  
    You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.
 
    ```shell
-   mysql -u username -p University_management < path/to/University_management.sql
+   mysql -u username -p UniversityManagement < path/to/UniversityManagement.sql
    ```
 
 **Run the Application:**
@@ -76,7 +76,7 @@ You need to create the database before importing the SQL file into it.
 
 ## Alternative
 
-   - Ensure that you have created the Database `University_management`, and imported the [`University_management.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository into your MySQL database.  
+   - Ensure that you have created the Database `UniversityManagement`, and imported the [`UniversityManagement.sql`](https://github.com/Kvr-10/University-Management-System/tree/master/database) file from the repository into your MySQL database.  
    - You can directly download the JAR file from the [Releases page](https://github.com/Kvr-10/University-Management-System/releases/latest) and run it.    
    - Download [University-Management-System](https://github.com/Kvr-10/University-Management-System/releases/latest/download/UniversityMS.jar) Application.   
    - Initial Username: `kvr10` Password: `admin.`
