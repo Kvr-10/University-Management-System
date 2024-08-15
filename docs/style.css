@@ -173,6 +173,7 @@ ul li strong {
 .steps {
     background: #fff;
     padding: 20px;
+    hyphens: auto;
     border-radius: 8px;
 }
 
@@ -186,6 +187,8 @@ ul li strong {
 
 .directory-path {
     color: #e91e63;
+    overflow-wrap: break-word; 
+    word-break: break-all; 
 }
 
 .db-command {
@@ -197,6 +200,15 @@ ul li strong {
 }
 
 .step code {
+    background: #e9ecef;
+    padding: 5px;
+    border-radius: 4px;
+    display: block; 
+    overflow-wrap: break-word; 
+    word-break: break-all;
+}
+
+.step1 code {
     background: #e9ecef;
     padding: 5px;
     border-radius: 4px;
