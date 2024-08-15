@@ -91,7 +91,11 @@
             <h3>5. Import the SQL File</h3>
             <p>Download the <a href="https://github.com/Kvr-10/University-Management-System/tree/master/database" target="_blank" rel="noopener noreferrer"><code>UniversityManagement.sql</code></a> file from the repository and import it into your MySQL database.</p>
             <p>You can use tools like MySQL Workbench, phpMyAdmin, or command-line tools to execute the SQL script.</p>
+        </div>
+        <div class="step">
             <p class="import-command"><code>mysql -u username -p UniversityManagement < path/to/UniversityManagement.sql</code></p>
+        </div>
+        <div class="step1">
             <p>
                 <b>Note:</b> Make sure to update the username and password in the <code>DriverManager.getConnection</code> method within your <code>Connectionmysql</code> class to match your MySQL database credentials.
             </p>
